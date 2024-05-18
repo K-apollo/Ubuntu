@@ -1,16 +1,18 @@
-# C++ objects and libs
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
+# Key required files!
 *.dll
-*.dylib
+*.lib
 
-# Qt-es
+# Source and Header Files
+*.h
+*.hpp
+*.c
+*.cpp
+
+# UI and Project Files
+*.ui
+*.pro
+
+# Qt-specific
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
@@ -52,3 +54,7 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# Icons and Images
+*/icon/**/*
+*/image/**/*
